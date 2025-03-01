@@ -55,21 +55,22 @@ export default function AdjectiveGame() {
       <div className="text-lg mb-4 flex flex-wrap justify-center items-center gap-2">
         {sentences[currentSentence].text.split(" ").map((word, index) =>
           word.includes("_") ? (
-            <div key={index} className="inline-block text-center">
-              <span className="block">{word}</span>
+            <span key={index} className="mx-1 flex items-center">
+              <span className="mr-1">{word.replace("_", "")} </span>
               <select
                 className="border rounded px-2 py-1 mx-1 block w-20"
                 value={userAnswers[index] || ""}
                 onChange={(e) => handleChange(index, e.target.value)}
                 disabled={submitted}
               >
+                <option value="">-</option>
                 {sentences[currentSentence].options.map((opt, i) => (
                   <option key={i} value={opt}>{opt}</option>
                 ))}
               </select>
-            </div>
+            </span>
           ) : (
-            <span key={index} className="mx-1">{word}</span>
+            <span key={index} className="mx-1">{word} </span>
           )
         )}
       </div>
@@ -94,4 +95,3 @@ export default function AdjectiveGame() {
     </div>
   );
 }
-
