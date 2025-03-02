@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cfba436de21fdaf8b528fe94aca61954",
+    "revision": "62f9f4749a1aae74d0381aca62a8d8b9",
     "url": "/german-adjective-game/index.html"
   },
   {
-    "revision": "f38007d98b4162e69603",
+    "revision": "01cf58a71a65882cdbd3",
     "url": "/german-adjective-game/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/german-adjective-game/static/js/3.940f5f6f.chunk.js"
   },
   {
-    "revision": "f38007d98b4162e69603",
-    "url": "/german-adjective-game/static/js/main.8871a5f3.chunk.js"
+    "revision": "01cf58a71a65882cdbd3",
+    "url": "/german-adjective-game/static/js/main.56a3f599.chunk.js"
   },
   {
     "revision": "788635ad2a8cd901d984",
