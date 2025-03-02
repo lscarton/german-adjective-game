@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/german-adjective-game/precache-manifest.4e7bbbcf453ef33fe292fad974362a6f.js"
+  "/german-adjective-game/precache-manifest.d18550942fdb38bcee7796fba0d49091.js"
 );
 
 self.addEventListener('message', (event) => {
