@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/german-adjective-game/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/german-adjective-game/static/js/main.56a3f599.chunk.js",
-    "main.js.map": "/german-adjective-game/static/js/main.56a3f599.chunk.js.map",
+    "main.js": "/german-adjective-game/static/js/main.f63bd20a.chunk.js",
+    "main.js.map": "/german-adjective-game/static/js/main.f63bd20a.chunk.js.map",
     "runtime~main.js": "/german-adjective-game/static/js/runtime~main.1b3ce85e.js",
     "runtime~main.js.map": "/german-adjective-game/static/js/runtime~main.1b3ce85e.js.map",
     "static/js/2.ae026ab9.chunk.js": "/german-adjective-game/static/js/2.ae026ab9.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.940f5f6f.chunk.js": "/german-adjective-game/static/js/3.940f5f6f.chunk.js",
     "static/js/3.940f5f6f.chunk.js.map": "/german-adjective-game/static/js/3.940f5f6f.chunk.js.map",
     "index.html": "/german-adjective-game/index.html",
-    "precache-manifest.cca4fb7ca050e245ac5cac60319ecfda.js": "/german-adjective-game/precache-manifest.cca4fb7ca050e245ac5cac60319ecfda.js",
+    "precache-manifest.4e7bbbcf453ef33fe292fad974362a6f.js": "/german-adjective-game/precache-manifest.4e7bbbcf453ef33fe292fad974362a6f.js",
     "service-worker.js": "/german-adjective-game/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/german-adjective-game/static/css/main.5ecd60fb.chunk.css.map"
   }
