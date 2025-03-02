@@ -1,0 +1,18 @@
+[
+  {
+    "text": "Der alt_ Mann beobachtete den rot_ Sonnenuntergang.",
+    "options": ["e", "er", "en", "es"],
+    "answers": ["e", "en"]
+  },
+  {
+    "text": "Die jung_ Frau trinkt einen heiß_ Kaffee.",
+    "options": ["e", "er", "en", "es"],
+    "answers": ["e", "en"]
+  },
+  {
+    "text": "Das groß_ Haus steht neben dem klein_ Garten.",
+    "options": ["e", "er", "en", "es"],
+    "answers": ["e", "en"]
+  }
+]
+
