@@ -52,26 +52,28 @@ export default function AdjectiveGame() {
     <div className="p-4 max-w-lg mx-auto text-center">
       <h1 className="text-2xl font-bold mb-4">German Adjective Endings Game</h1>
       <p className="mb-4">Select the correct adjective endings.</p>
-      <p className="text-lg mb-4">
+      <div className="text-lg mb-4 flex flex-wrap justify-center items-center gap-2">
         {sentences[currentSentence].text.split(" ").map((word, index) =>
           word.includes("_") ? (
-            <select
-              key={index}
-              className="border rounded px-2 py-1 mx-1 block w-20"
-              size={4} 
-              value={userAnswers[index] || ""}
-              onChange={(e) => handleChange(index, e.target.value)}
-              disabled={submitted}
-            >
-              {sentences[currentSentence].options.map((opt, i) => (
-                <option key={i} value={opt}>{opt}</option>
-              ))}
-            </select>
+            <div key={index} className="flex flex-col items-center">
+              <span>{word}</span>
+              <select
+                className="border rounded px-2 py-1 mx-1 block w-20"
+                size={4}
+                value={userAnswers[index] || ""}
+                onChange={(e) => handleChange(index, e.target.value)}
+                disabled={submitted}
+              >
+                {sentences[currentSentence].options.map((opt, i) => (
+                  <option key={i} value={opt}>{opt}</option>
+                ))}
+              </select>
+            </div>
           ) : (
-            word + " "
+            <span key={index} className="mx-1">{word}</span>
           )
         )}
-      </p>
+      </div>
       {!submitted ? (
         <button
           onClick={checkAnswers}
