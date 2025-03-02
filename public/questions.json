@@ -13,6 +13,83 @@
     "text": "Das groß_ Haus steht neben dem klein_ Garten.",
     "options": ["e", "er", "en", "es"],
     "answers": ["e", "en"]
+  },
+
+  {
+    "text": "Der groß_ Hund jagt die klein_ Katze.",
+    "answers": ["e", "e"],
+    "options": ["e", "er", "es", "en"]
+  },
+  {
+    "text": "Ich sehe den schnell_ Wagen auf der lang_ Straße.",
+    "answers": ["en", "en"],
+    "options": ["e", "er", "es", "en"]
+  },
+  {
+    "text": "Das süß_ Kind spielt mit der rot_ Puppe.",
+    "answers": ["e", "en"],
+    "options": ["e", "er", "es", "en"]
+  },
+  {
+    "text": "Ein alt_ Mann sitzt auf dem bequem_ Stuhl.",
+    "answers": ["er", "en"],
+    "options": ["e", "er", "es", "en"]
+  },
+  {
+    "text": "Wir besuchen unsere neu_ Freunde in der schön_ Stadt.",
+    "answers": ["en", "en"],
+    "options": ["e", "er", "es", "en"]
+  },
+  {
+    "text": "Der mutig_ Soldat verteidigt sein Vaterland.",
+    "answers": ["e"],
+    "options": ["e", "er", "es", "en"]
+  },
+  {
+    "text": "Ich schenke meiner best_ Freundin ein bunt_ Kleid.",
+    "answers": ["en", "es"],
+    "options": ["e", "er", "es", "en"]
+  },
+  {
+    "text": "Das blau_ Auto gehört dem reich_ Geschäftsmann.",
+    "answers": ["e", "en"],
+    "options": ["e", "er", "es", "en"]
+  },
+  {
+    "text": "Die klug_ Schülerin schreibt eine gut_ Arbeit.",
+    "answers": ["e", "e"],
+    "options": ["e", "er", "es", "en"]
+  },
+  {
+    "text": "Ich spreche mit dem nett_ Lehrer über die schwierig_ Aufgabe.",
+    "answers": ["en", "e"],
+    "options": ["e", "er", "es", "en"]
+  },
+  {
+    "text": "Die schnell_ Autos fahren über die breit_ Brücke.",
+    "answers": ["en", "e"],
+    "options": ["e", "er", "es", "en"]
+  },
+  {
+    "text": "Das schön_ Haus hat eine groß_ Terrasse.",
+    "answers": ["e", "e"],
+    "options": ["e", "er", "es", "en"]
+  },
+  {
+    "text": "Ich mag den hell_ Himmel und das ruhig_ Meer.",
+    "answers": ["en", "e"],
+    "options": ["e", "er", "es", "en"]
+  },
+  {
+    "text": "Meine alt_ Großmutter erzählt mir spannende Geschichten.",
+    "answers": ["e"],
+    "options": ["e", "er", "es", "en"]
+  },
+  {
+    "text": "Die warm_ Sonne scheint durch die offen_ Fenster.",
+    "answers": ["e", "en"],
+    "options": ["e", "er", "es", "en"]
   }
+  // Add 185 more sentences following this structure
 ]
 
