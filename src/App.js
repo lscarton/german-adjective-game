@@ -51,18 +51,18 @@ export default function AdjectiveGame() {
   return (
     <div className="p-4 max-w-lg mx-auto text-center">
       <h1 className="text-2xl font-bold mb-4">German Adjective Endings Game</h1>
-      <p className="mb-4">Fill in the correct adjective endings.</p>
+      <p className="mb-4">Select the correct adjective endings.</p>
       <p className="text-lg mb-4">
         {sentences[currentSentence].text.split(" ").map((word, index) =>
           word.includes("_") ? (
             <select
               key={index}
-              className="border rounded px-2 py-1 mx-1"
+              className="border rounded px-2 py-1 mx-1 block w-20"
+              size={4} 
               value={userAnswers[index] || ""}
               onChange={(e) => handleChange(index, e.target.value)}
               disabled={submitted}
             >
-              <option value="">--</option>
               {sentences[currentSentence].options.map((opt, i) => (
                 <option key={i} value={opt}>{opt}</option>
               ))}
