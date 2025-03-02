@@ -55,11 +55,10 @@ export default function AdjectiveGame() {
       <div className="text-lg mb-4 flex flex-wrap justify-center items-center gap-2">
         {sentences[currentSentence].text.split(" ").map((word, index) =>
           word.includes("_") ? (
-            <div key={index} className="flex flex-col items-center">
-              <span>{word}</span>
+            <div key={index} className="inline-block text-center">
+              <span className="block">{word}</span>
               <select
                 className="border rounded px-2 py-1 mx-1 block w-20"
-                size={4}
                 value={userAnswers[index] || ""}
                 onChange={(e) => handleChange(index, e.target.value)}
                 disabled={submitted}
